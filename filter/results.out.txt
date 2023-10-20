@@ -1,0 +1,30 @@
+goos: windows
+goarch: amd64
+pkg: uk.ac.bris.cs/concurrency1/filter
+cpu: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+BenchmarkFilter/1_workers-8         	       1	 434653300 ns/op
+BenchmarkFilter/1_workers-8         	       1	 481669500 ns/op
+BenchmarkFilter/1_workers-8         	       1	 380133600 ns/op
+BenchmarkFilter/1_workers-8         	       1	 467582800 ns/op
+BenchmarkFilter/1_workers-8         	       1	 458783700 ns/op
+BenchmarkFilter/2_workers-8         	       1	 290203600 ns/op
+BenchmarkFilter/2_workers-8         	       1	 299320700 ns/op
+BenchmarkFilter/2_workers-8         	       1	 286640300 ns/op
+BenchmarkFilter/2_workers-8         	       1	 301699000 ns/op
+BenchmarkFilter/2_workers-8         	       1	 315959500 ns/op
+BenchmarkFilter/4_workers-8         	       1	 236735100 ns/op
+BenchmarkFilter/4_workers-8         	       1	 263613600 ns/op
+BenchmarkFilter/4_workers-8         	       1	 232268600 ns/op
+BenchmarkFilter/4_workers-8         	       1	 186346800 ns/op
+BenchmarkFilter/4_workers-8         	       1	 181107800 ns/op
+BenchmarkFilter/8_workers-8         	       1	 193795900 ns/op
+BenchmarkFilter/8_workers-8         	       1	 147856400 ns/op
+BenchmarkFilter/8_workers-8         	       1	 178576700 ns/op
+BenchmarkFilter/8_workers-8         	       1	 198056400 ns/op
+BenchmarkFilter/8_workers-8         	       1	 188627300 ns/op
+BenchmarkFilter/16_workers-8        	       1	 172155200 ns/op
+BenchmarkFilter/16_workers-8        	       1	 170663600 ns/op
+BenchmarkFilter/16_workers-8        	       1	 163283900 ns/op
+BenchmarkFilter/16_workers-8        	       1	 224882000 ns/op
+BenchmarkFilter/16_workers-8        	       1	 167695200 ns/op
+ok  	uk.ac.bris.cs/concurrency1/filter	7.041s
